@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1CC4D729C88E2700F6760E /* MultiDayWeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CC4D629C88E2700F6760E /* MultiDayWeatherController.swift */; };
+		3A1CC4D929C88E3800F6760E /* MultiDayWeatherUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CC4D829C88E3800F6760E /* MultiDayWeatherUIController.swift */; };
+		3A1CC4DB29C896D700F6760E /* WeatherCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CC4DA29C896D700F6760E /* WeatherCellData.swift */; };
+		3A1CC4DD29C8989600F6760E /* MultyDayWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CC4DC29C8989600F6760E /* MultyDayWeatherData.swift */; };
+		3A8FC23A29C1E67200D70A54 /* OpenWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FC23929C1E67200D70A54 /* OpenWeatherService.swift */; };
+		3A8FC23D29C1E9F300D70A54 /* MoyaNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FC23C29C1E9F300D70A54 /* MoyaNetworkService.swift */; };
+		3A8FC24029C1F1B900D70A54 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FC23F29C1F1B900D70A54 /* WeatherModel.swift */; };
 		3AF58A3629C0D8360009AFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF58A3529C0D8360009AFD9 /* AppDelegate.swift */; };
 		3AF58A3829C0D8360009AFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF58A3729C0D8360009AFD9 /* SceneDelegate.swift */; };
 		3AF58A3A29C0D8360009AFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF58A3929C0D8360009AFD9 /* ViewController.swift */; };
 		3AF58A3D29C0D8360009AFD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF58A3B29C0D8360009AFD9 /* Main.storyboard */; };
 		3AF58A3F29C0D8390009AFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF58A3E29C0D8390009AFD9 /* Assets.xcassets */; };
 		3AF58A4229C0D8390009AFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF58A4029C0D8390009AFD9 /* LaunchScreen.storyboard */; };
+		3AFC39FD29C458CD009EDE36 /* WeatherDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC39FC29C458CD009EDE36 /* WeatherDataRepository.swift */; };
+		3AFC39FF29C45A46009EDE36 /* MultiDayDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC39FE29C45A46009EDE36 /* MultiDayDataView.swift */; };
+		3AFC3A0229C45A8C009EDE36 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC3A0129C45A8C009EDE36 /* NibLoadable.swift */; };
+		3AFC3A0429C45AEE009EDE36 /* MultiDayWeather.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC3A0329C45AEE009EDE36 /* MultiDayWeather.xib */; };
+		3AFC3A0629C45F8A009EDE36 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC3A0529C45F8A009EDE36 /* WeatherCell.xib */; };
+		3AFC3A0829C460AB009EDE36 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC3A0729C460AB009EDE36 /* WeatherCell.swift */; };
+		3AFC3A0A29C48101009EDE36 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC3A0929C48101009EDE36 /* Container.swift */; };
+		C66C4B38999ECA08E86157A5 /* Pods_VeePeeWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD43E176095D990CD361443 /* Pods_VeePeeWeatherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B6D1940F6D37D4FF7707429 /* Pods-VeePeeWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeePeeWeatherApp.release.xcconfig"; path = "Target Support Files/Pods-VeePeeWeatherApp/Pods-VeePeeWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		3A1CC4D629C88E2700F6760E /* MultiDayWeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDayWeatherController.swift; sourceTree = "<group>"; };
+		3A1CC4D829C88E3800F6760E /* MultiDayWeatherUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDayWeatherUIController.swift; sourceTree = "<group>"; };
+		3A1CC4DA29C896D700F6760E /* WeatherCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellData.swift; sourceTree = "<group>"; };
+		3A1CC4DC29C8989600F6760E /* MultyDayWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultyDayWeatherData.swift; sourceTree = "<group>"; };
+		3A8FC23929C1E67200D70A54 /* OpenWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherService.swift; sourceTree = "<group>"; };
+		3A8FC23C29C1E9F300D70A54 /* MoyaNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetworkService.swift; sourceTree = "<group>"; };
+		3A8FC23F29C1F1B900D70A54 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		3AF58A3229C0D8360009AFD9 /* VeePeeWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeePeeWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF58A3529C0D8360009AFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF58A3729C0D8360009AFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,15 @@
 		3AF58A3E29C0D8390009AFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF58A4129C0D8390009AFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AF58A4329C0D8390009AFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFC39FC29C458CD009EDE36 /* WeatherDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataRepository.swift; sourceTree = "<group>"; };
+		3AFC39FE29C45A46009EDE36 /* MultiDayDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDayDataView.swift; sourceTree = "<group>"; };
+		3AFC3A0129C45A8C009EDE36 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		3AFC3A0329C45AEE009EDE36 /* MultiDayWeather.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiDayWeather.xib; sourceTree = "<group>"; };
+		3AFC3A0529C45F8A009EDE36 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		3AFC3A0729C460AB009EDE36 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		3AFC3A0929C48101009EDE36 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		CAD43E176095D990CD361443 /* Pods_VeePeeWeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeePeeWeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0D464ED7C87FE91DAA388B /* Pods-VeePeeWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeePeeWeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-VeePeeWeatherApp/Pods-VeePeeWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,109 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66C4B38999ECA08E86157A5 /* Pods_VeePeeWeatherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E398853FBDD43B08F3DDFB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D464ED7C87FE91DAA388B /* Pods-VeePeeWeatherApp.debug.xcconfig */,
+				1B6D1940F6D37D4FF7707429 /* Pods-VeePeeWeatherApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A1CC4D529C88E0A00F6760E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CC4D629C88E2700F6760E /* MultiDayWeatherController.swift */,
+				3A1CC4D829C88E3800F6760E /* MultiDayWeatherUIController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A8FC23629C1E5E100D70A54 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC39FB29C458B5009EDE36 /* WeatherDataRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3A8FC23729C1E5EE00D70A54 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FC23B29C1E9DC00D70A54 /* NetworkService */,
+				3A8FC23829C1E5FD00D70A54 /* OpenWeatherService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3A8FC23829C1E5FD00D70A54 /* OpenWeatherService */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FC23929C1E67200D70A54 /* OpenWeatherService.swift */,
+			);
+			path = OpenWeatherService;
+			sourceTree = "<group>";
+		};
+		3A8FC23B29C1E9DC00D70A54 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FC23C29C1E9F300D70A54 /* MoyaNetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		3A8FC23E29C1F11B00D70A54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FC23F29C1F1B900D70A54 /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A8FC24129C1F89500D70A54 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FC24229C1F8A400D70A54 /* MultiDayData */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A8FC24229C1F8A400D70A54 /* MultiDayData */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CC4D529C88E0A00F6760E /* Controllers */,
+				3A8FC24329C1F8BB00D70A54 /* Views */,
+			);
+			path = MultiDayData;
+			sourceTree = "<group>";
+		};
+		3A8FC24329C1F8BB00D70A54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC39FE29C45A46009EDE36 /* MultiDayDataView.swift */,
+				3AFC3A0329C45AEE009EDE36 /* MultiDayWeather.xib */,
+				3AFC3A0529C45F8A009EDE36 /* WeatherCell.xib */,
+				3AFC3A0729C460AB009EDE36 /* WeatherCell.swift */,
+				3A1CC4DA29C896D700F6760E /* WeatherCellData.swift */,
+				3A1CC4DC29C8989600F6760E /* MultyDayWeatherData.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3AF58A2929C0D8360009AFD9 = {
 			isa = PBXGroup;
 			children = (
 				3AF58A3429C0D8360009AFD9 /* VeePeeWeatherApp */,
 				3AF58A3329C0D8360009AFD9 /* Products */,
+				2E398853FBDD43B08F3DDFB5 /* Pods */,
+				EF981E781C3734F025828AE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +180,11 @@
 		3AF58A3429C0D8360009AFD9 /* VeePeeWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				3AFC3A0029C45A73009EDE36 /* Shared */,
+				3A8FC24129C1F89500D70A54 /* App */,
+				3A8FC23E29C1F11B00D70A54 /* Models */,
+				3A8FC23729C1E5EE00D70A54 /* Services */,
+				3A8FC23629C1E5E100D70A54 /* Repositories */,
 				3AF58A3529C0D8360009AFD9 /* AppDelegate.swift */,
 				3AF58A3729C0D8360009AFD9 /* SceneDelegate.swift */,
 				3AF58A3929C0D8360009AFD9 /* ViewController.swift */,
@@ -67,6 +196,31 @@
 			path = VeePeeWeatherApp;
 			sourceTree = "<group>";
 		};
+		3AFC39FB29C458B5009EDE36 /* WeatherDataRepository */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC39FC29C458CD009EDE36 /* WeatherDataRepository.swift */,
+			);
+			path = WeatherDataRepository;
+			sourceTree = "<group>";
+		};
+		3AFC3A0029C45A73009EDE36 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC3A0129C45A8C009EDE36 /* NibLoadable.swift */,
+				3AFC3A0929C48101009EDE36 /* Container.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EF981E781C3734F025828AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD43E176095D990CD361443 /* Pods_VeePeeWeatherApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AF58A4629C0D8390009AFD9 /* Build configuration list for PBXNativeTarget "VeePeeWeatherApp" */;
 			buildPhases = (
+				EBBB6D5BF4EC79B178560CE2 /* [CP] Check Pods Manifest.lock */,
 				3AF58A2E29C0D8360009AFD9 /* Sources */,
 				3AF58A2F29C0D8360009AFD9 /* Frameworks */,
 				3AF58A3029C0D8360009AFD9 /* Resources */,
+				9490F22D99512664606E1128 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +282,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF58A4229C0D8390009AFD9 /* LaunchScreen.storyboard in Resources */,
+				3AFC3A0429C45AEE009EDE36 /* MultiDayWeather.xib in Resources */,
 				3AF58A3F29C0D8390009AFD9 /* Assets.xcassets in Resources */,
 				3AF58A3D29C0D8360009AFD9 /* Main.storyboard in Resources */,
+				3AFC3A0629C45F8A009EDE36 /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9490F22D99512664606E1128 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeePeeWeatherApp/Pods-VeePeeWeatherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeePeeWeatherApp/Pods-VeePeeWeatherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeePeeWeatherApp/Pods-VeePeeWeatherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBB6D5BF4EC79B178560CE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeePeeWeatherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AF58A2E29C0D8360009AFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFC39FF29C45A46009EDE36 /* MultiDayDataView.swift in Sources */,
+				3A1CC4D929C88E3800F6760E /* MultiDayWeatherUIController.swift in Sources */,
 				3AF58A3A29C0D8360009AFD9 /* ViewController.swift in Sources */,
+				3AFC3A0829C460AB009EDE36 /* WeatherCell.swift in Sources */,
+				3A1CC4D729C88E2700F6760E /* MultiDayWeatherController.swift in Sources */,
 				3AF58A3629C0D8360009AFD9 /* AppDelegate.swift in Sources */,
+				3A1CC4DD29C8989600F6760E /* MultyDayWeatherData.swift in Sources */,
+				3AFC3A0229C45A8C009EDE36 /* NibLoadable.swift in Sources */,
+				3A8FC23D29C1E9F300D70A54 /* MoyaNetworkService.swift in Sources */,
+				3A8FC23A29C1E67200D70A54 /* OpenWeatherService.swift in Sources */,
+				3A8FC24029C1F1B900D70A54 /* WeatherModel.swift in Sources */,
+				3A1CC4DB29C896D700F6760E /* WeatherCellData.swift in Sources */,
 				3AF58A3829C0D8360009AFD9 /* SceneDelegate.swift in Sources */,
+				3AFC3A0A29C48101009EDE36 /* Container.swift in Sources */,
+				3AFC39FD29C458CD009EDE36 /* WeatherDataRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +494,7 @@
 		};
 		3AF58A4729C0D8390009AFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0D464ED7C87FE91DAA388B /* Pods-VeePeeWeatherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +523,7 @@
 		};
 		3AF58A4829C0D8390009AFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6D1940F6D37D4FF7707429 /* Pods-VeePeeWeatherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
